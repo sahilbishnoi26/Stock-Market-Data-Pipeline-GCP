@@ -17,6 +17,7 @@ We will leverage the following GCP services to build our stock market data pipel
 ### **Batch Data Ingestion and Processing**
 1. **Cloud Storage** - An object storage service to store batch data such as news and other relevant datasets.
 2. **Dataproc** - A managed service that runs Apache Spark jobs to process large-scale batch data efficiently.
+![alt text](https://github.com/sahilbishnoi26/Stock-Market-Data-Pipeline-GCP/blob/main/data/img5.png)
 
 ### **Data Warehousing and Analytics**
 1. **BigQuery** - A serverless data warehouse to store and analyze processed data using SQL queries. Supports both real-time and batch data ingestion.
