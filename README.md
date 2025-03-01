@@ -63,7 +63,3 @@ We will leverage the following GCP services to build our stock market data pipel
 - [Google Cloud Documentation](https://cloud.google.com/docs)
 - [Apache Beam Documentation](https://beam.apache.org)
 - [BigQuery SQL Reference](https://cloud.google.com/bigquery/docs/reference/standard-sql)
-
-## License
-This project is licensed under the MIT License.
-
