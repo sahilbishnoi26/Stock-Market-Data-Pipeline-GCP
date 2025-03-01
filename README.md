@@ -61,15 +61,8 @@ We will leverage the following GCP services to build our stock market data pipel
 
 ## Learning Resources
 - [Google Cloud Documentation](https://cloud.google.com/docs)
-- [Coursera - GCP Data Engineering Course](https://www.coursera.org)
 - [Apache Beam Documentation](https://beam.apache.org)
 - [BigQuery SQL Reference](https://cloud.google.com/bigquery/docs/reference/standard-sql)
-
-## Certification Path
-If you want to validate your GCP knowledge, consider taking the **Google Cloud Professional Data Engineer** certification exam.
-
-## Contributing
-Contributions are welcome! If you find issues or want to improve the pipeline, feel free to open a pull request.
 
 ## License
 This project is licensed under the MIT License.
