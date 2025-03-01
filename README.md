@@ -5,6 +5,7 @@ This project demonstrates how to build a stock market data pipeline using Google
 
 ## Architecture
 We will leverage the following GCP services to build our stock market data pipeline:
+![alt text](https://github.com/sahilbishnoi26/Stock-Market-Data-Pipeline-GCP/blob/main/data/img0.png)
 
 ### **Real-time Data Ingestion and Processing**
 1. **Pub/Sub** - A messaging service for asynchronous communication, enabling real-time data streaming from stock market APIs, using a publisher-subscriber model. Data coming from sttockmarket API, publsh meesage on pubsub topic that subscriber can consume
