@@ -7,8 +7,10 @@ This project demonstrates how to build a stock market data pipeline using Google
 We will leverage the following GCP services to build our stock market data pipeline:
 
 ### **Real-time Data Ingestion and Processing**
-1. **Pub/Sub** - A messaging service for asynchronous communication, enabling real-time data streaming from stock market APIs.
-2. **Dataflow** - A fully managed data processing service that uses Apache Beam to process real-time data streams.
+1. **Pub/Sub** - A messaging service for asynchronous communication, enabling real-time data streaming from stock market APIs, using a publisher-subscriber model. Data coming from sttockmarket API, publsh meesage on pubsub topic that subscriber can consume
+![alt text](https://github.com/sahilbishnoi26/Stock-Market-Data-Pipeline-GCP/blob/main/data/img1.png)
+![alt text](https://github.com/sahilbishnoi26/Stock-Market-Data-Pipeline-GCP/blob/main/data/img2.png)
+3. **Dataflow** - A fully managed data processing service that uses Apache Beam to process real-time data streams.
 
 ### **Batch Data Ingestion and Processing**
 1. **Cloud Storage** - An object storage service to store batch data such as news and other relevant datasets.
